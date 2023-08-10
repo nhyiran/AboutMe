@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     var facts = ["I love photography", "I am an athlete", "I am a music connoisseur"]
-    @State private var factDisplay
+    //@State private var factDisplay
     
     var body: some View {
         VStack {
@@ -28,18 +28,18 @@ struct ContentView: View {
                 .frame(width: 5.0, height: 25.0)
             
             
-            Button("Click for facts") {
-                for fact in facts {
-                    Text(fact)
+            //Button("Click for facts") {
+                //for fact in facts {
+                    //Text(fact)
                 }
                 
             }
-            .font(.title2)
-            .buttonStyle(.borderedProminent)
-            .tint((Color(hue: 0.833, saturation: 0.297, brightness: 0.965)))
+           // .font(.title2)
+            //.buttonStyle(.borderedProminent)
+            //.tint((Color(hue: 0.833, saturation: 0.297, brightness: //0.965)))
             
-            Text("I love photography and music")
-                .foregroundColor(Color.black)
+            //Text("I love photography and music")
+                //.foregroundColor(Color.black)
                 
             
 
@@ -47,9 +47,7 @@ struct ContentView: View {
             
                 
         }
-        .padding(.all)
-    }
-}
+        //.padding(.all)
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
